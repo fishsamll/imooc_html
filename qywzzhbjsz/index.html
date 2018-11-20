@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="../qywzzhbjsz/css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script src="js/setHomeSetFav.js"type="text/javascript" charset="GB2312"></script>
 </head>
 <body>
  <div class="top">
      <div class="top_content">
          <ul>
-             <li>设为首页</li>
-             <li>加入收藏</li>
-             <li>联系我们</li>
+             <li><a href="#">联系我们</a></li>
+             <li><a href="#" onclick="AddFavorite(window.location,document.title)">加入收藏</a></li>
+             <li><a href="#" onclick="SetHome(window.location)">设为首页</a></li>
          </ul>
      </div>
  </div>
+<div class="wrap">
+    <div class="logo">
+        <div class="logo_left">
+            <img src="img/logo.jpg" height="80" width="200"/></div>
+        <div class="logo_right">
+            <img src="img/tel.jpg" height="28" width="28"/></div>
+    </div>
+</div>
 </body>
 </html>
